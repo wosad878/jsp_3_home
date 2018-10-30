@@ -115,7 +115,6 @@ public class QnaService implements BoardService{
 	}
 
 
-
 	public ActionFoward selectOne(HttpServletRequest request, HttpServletResponse response) {
 		ActionFoward actionFoward = new ActionFoward();
 		actionFoward.setCheck(false);
